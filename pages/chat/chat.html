@@ -1,0 +1,310 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <!-- Required meta tags -->
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+  <title>Majestic Admin</title>
+  <!-- plugins:css -->
+  <link rel="stylesheet" href="../../vendors/mdi/css/materialdesignicons.min.css">
+  <link rel="stylesheet" href="../../vendors/base/vendor.bundle.base.css">
+  <!-- endinject -->
+  <!-- inject:css -->
+  <link rel="stylesheet" href="../../css/style.css">
+  <!-- endinject -->
+  <link rel="shortcut icon" href="../../images/favicon.png" />
+  <link rel="stylesheet" href="./style.css">
+  <link rel='stylesheet' href='https://cdnjs.cloudflare.com/ajax/libs/material-design-icons/3.0.1/iconfont/material-icons.min.css'>
+  <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/font-awesome/4.4.0/css/font-awesome.min.css">
+<link rel="stylesheet" href="./lib/css/emoji.css">
+</head>
+
+<body>
+  <div class=" container-scroller">
+    <!-- partial:../../partials/_navbar.html -->
+    <nav class="navbar col-lg-12 col-12 p-0 fixed-top d-flex flex-row">
+      <div class="navbar-brand-wrapper d-flex justify-content-center">
+        <div class="navbar-brand-inner-wrapper d-flex justify-content-between align-items-center w-100"> 
+          
+          
+          <a class="navbar-brand brand-logo" href="../../index.html">
+
+           <!-- <img src="../../images/logo.svg" alt="logo"/></a>-->
+           <p>logo</p>
+
+          <a class="navbar-brand brand-logo-mini" href="../../index.html"><img src="../../images/logo-mini.svg" alt="logo"/></a>
+          <button class="navbar-toggler navbar-toggler align-self-center" type="button" data-toggle="minimize">
+            <span class="mdi mdi-sort-variant"></span>
+          </button>
+        </div>  
+      </div>
+      <div class="navbar-menu-wrapper d-flex align-items-center justify-content-end">
+        <ul class="navbar-nav mr-lg-4 w-100">
+                <li class="nav-item nav-search d-none d-lg-block w-100">
+                        <div class="input-group">
+                          <div class="input-group-prepend">
+                            <span class="input-group-text" id="search">
+                              <i class="mdi mdi-magnify"></i>
+                            </span>
+                          </div>
+                          <input type="text" class="form-control" placeholder="Search now" aria-label="search" aria-describedby="search">
+                        </div>
+                      </li>
+        </ul>
+        <ul class="navbar-nav navbar-nav-right">
+                <li class="nav-item dropdown mr-1">
+                        <a class="nav-link count-indicator dropdown-toggle d-flex justify-content-center align-items-center" id="messageDropdown" href="#" data-toggle="dropdown">
+                          <i class="mdi mdi-message-text mx-0"></i>
+                          <span class="count"></span>
+                        </a>
+                        <div class="dropdown-menu dropdown-menu-right navbar-dropdown" aria-labelledby="messageDropdown">
+                          <p class="mb-0 font-weight-normal float-left dropdown-header">Messages</p>
+                          <div class="dropdown-item">
+                            <div class="alert alert-success" role="alert">
+                              A simple success alert—check it out!
+                            </div>
+                          </div>
+                          <div class="dropdown-item">
+                            <div class="alert alert-success" role="alert">
+                              A simple success alert—check it out!
+                            </div>
+                          </div>
+                          <div class="dropdown-item">
+                            <div class="alert alert-success" role="alert">
+                              A simple success alert—check it out!
+                            </div>
+                          </div>
+                        </div>
+                      </li>
+
+
+          <li class="nav-item nav-profile dropdown">
+            <a class="nav-link dropdown-toggle" href="#" data-toggle="dropdown" id="profileDropdown">
+              <img src="../../images/faces/face5.jpg" alt="profile"/>
+              <span class="nav-profile-name">Alireza babaei</span>
+            </a>
+         
+          </li>
+        </ul>
+        <button class="navbar-toggler navbar-toggler-right d-lg-none align-self-center" type="button" data-toggle="offcanvas">
+          <span class="mdi mdi-menu"></span>
+        </button>
+      </div>
+    </nav>
+    <!-- partial -->
+    <div class="container-fluid page-body-wrapper">
+      <!-- partial:../../partials/_sidebar.html -->
+      <nav class="sidebar sidebar-offcanvas" id="sidebar">
+        <ul class="nav">
+          <li class="nav-item">
+            <a class="nav-link" href="../home/home.html">
+              <i class="mdi mdi-home menu-icon"></i>
+              <span class="menu-title">home</span>
+            </a>
+          </li>
+         
+        
+          <li class="nav-item">
+            <a class="nav-link" href="../chat/chat.html">
+              <i class="mdi mdi-chat menu-icon"></i>
+              <span class="menu-title">chat</span>
+            </a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link" href="../charts/chartjs.html">
+              <i class="mdi mdi-table menu-icon"></i>
+              <span class="menu-title">report</span>
+            </a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link" href="../profile/profile.html">
+              <i class="mdi mdi-account menu-icon"></i>
+              <span class="menu-title">profile</span>
+            </a>
+          </li>
+      
+        
+        </ul>
+      </nav>
+      <!-- partial -->
+      <div class="main-panel">        
+
+    
+    
+    <!-- partial:../../partials/_footer.html -->
+
+        <div class="containerchat">
+                <div class="row no-gutters">
+                  <div class="col-md-4 border-right">
+                    <div class="settings-tray">
+                      <img class="profile-image" src="https://filiprastovic.com/wp-content/themes/filip-rastovic/assets/img/bootstrap-chat-app-assets/filip.jpg" alt="Profile img">
+                      <span class="settings-tray--right">
+                        <i class="material-icons">cached</i>
+                      </span>
+                    </div>
+                    <div class="search-box">
+                      <div class="input-wrapper">
+                        <i class="material-icons">search</i>
+                        <input placeholder="Search here" type="text">
+                      </div>
+                    </div>
+                    <div class="friend-drawer friend-drawer--onhover">
+                      <img class="profile-image" src="https://filiprastovic.com/wp-content/themes/filip-rastovic/assets/img/bootstrap-chat-app-assets/robocop.jpg" alt="">
+                      <div class="text">
+                        <h6>Robo Cop</h6>
+                        <p class="text-muted">Hey, you're arrested!</p>
+                      </div>
+                      <span class="time text-muted small">13:21</span>
+                    </div>
+                    <hr>
+                    <div class="friend-drawer friend-drawer--onhover">
+                      <img class="profile-image" src="https://filiprastovic.com/wp-content/themes/filip-rastovic/assets/img/bootstrap-chat-app-assets/optimus-prime.jpeg" alt="">
+                      <div class="text">
+                        <h6>Optimus</h6>
+                        <p class="text-muted">Wanna grab a beer?</p>
+                      </div>
+                      <span class="time text-muted small">00:32</span>
+                    </div>
+                    <hr>
+                    <div class="friend-drawer friend-drawer--onhover ">
+                      <img class="profile-image" src="https://filiprastovic.com/wp-content/themes/filip-rastovic/assets/img/bootstrap-chat-app-assets/real-terminator.png" alt="">
+                      <div class="text">
+                        <h6>Skynet</h6>
+                        <p class="text-muted">Seen that canned piece of s?</p>
+                      </div>
+                      <span class="time text-muted small">13:21</span>
+                    </div>
+                    <hr>
+                    <div class="friend-drawer friend-drawer--onhover">
+                      <img class="profile-image" src="https://filiprastovic.com/wp-content/themes/filip-rastovic/assets/img/bootstrap-chat-app-assets/termy.jpg" alt="">
+                      <div class="text">
+                        <h6>Termy</h6>
+                        <p class="text-muted">Im studying spanish...</p>
+                      </div>
+                      <span class="time text-muted small">13:21</span>
+                    </div>
+                    <hr>
+                    <div class="friend-drawer friend-drawer--onhover">
+                      <img class="profile-image" src="https://filiprastovic.com/wp-content/themes/filip-rastovic/assets/img/bootstrap-chat-app-assets/rick.jpg" alt="">
+                      <div class="text">
+                        <h6>Richard</h6>
+                        <p class="text-muted">I'm not sure...</p>
+                      </div>
+                      <span class="time text-muted small">13:21</span>
+                    </div>
+                    <hr>
+                    <div class="friend-drawer friend-drawer--onhover">
+                      <img class="profile-image" src="https://filiprastovic.com/wp-content/themes/filip-rastovic/assets/img/bootstrap-chat-app-assets/rachel.jpeg" alt="">
+                      <div class="text">
+                        <h6>XXXXX</h6>
+                        <p class="text-muted">Hi, wanna see something?</p>
+                      </div>
+                      <span class="time text-muted small">13:21</span>
+                    </div>
+                  </div>
+                  <div class="col-md-8">
+                    <div class="settings-tray">
+                        <div class="friend-drawer no-gutters friend-drawer--grey">
+                        <img class="profile-image" src="https://filiprastovic.com/wp-content/themes/filip-rastovic/assets/img/bootstrap-chat-app-assets/robocop.jpg" alt="">
+                        <div class="text">
+                          <h6>Robo Cop</h6>
+                          <p class="text-muted">Layin' down the law since like before Christ...</p>
+                        </div>
+                       
+                      </div>
+                    </div>
+                    <div class="chat-panel">
+                      <div class="row no-gutters">
+                        <div class="col-md-3">
+                          <div class="chat-bubble chat-bubble--left">
+                            Hello dude!:smiley::smiley::smiley::smiley::smiley::smiley:
+                          </div>
+                        </div>
+                      </div>
+                      <div class="row no-gutters">
+                        <div class="col-md-3 offset-md-9">
+                          <div class="chat-bubble chat-bubble--right">
+                            Hello dude!
+                          </div>
+                        </div>
+                      </div>
+                      <div class="row no-gutters">
+                        <div class="col-md-3 offset-md-9">
+                          <div class="chat-bubble chat-bubble--right">
+                            Hello dude!
+                          </div>
+                        </div>
+                      </div>
+                      <div class="row no-gutters">
+                        <div class="col-md-3">
+                          <div class="chat-bubble chat-bubble--left">
+                            Hello dude!
+                          </div>
+                        </div>
+                      </div>
+                      <div class="row no-gutters">
+                        <div class="col-md-3">
+                          <div class="chat-bubble chat-bubble--left">
+                            Hello dude!
+                          </div>
+                        </div>
+                      </div>
+                      <div class="row no-gutters">
+                        <div class="col-md-3">
+                          <div class="chat-bubble chat-bubble--left">
+                            Hello dude!
+                          </div>
+                        </div>
+                      </div>
+                      <div class="row no-gutters">
+                        <div class="col-md-3 offset-md-9">
+                          <div class="chat-bubble chat-bubble--right">
+                            Hello dude!
+                          </div>
+                        </div>
+                      </div>
+                      <div class="row">
+                        <div class="col-12">
+                          <div class="chat-box-tray">
+                            <input type="text" placeholder="Type your message here..." data-emojiable="true">
+                            
+                            <i class="material-icons">send</i>
+                          </div>
+                        </div>
+                      </div>
+                    </div>
+                  </div>
+                </div>
+              </div>
+
+
+        <!-- partial -->
+      </div>
+    </div>
+
+  </div>
+  <!-- plugins:js -->
+  <script src="../../vendors/base/vendor.bundle.base.js"></script>
+  <!-- endinject -->
+  <!-- Plugin js for this page-->
+  <!-- End plugin js for this page-->
+  <!-- inject:js -->
+  <script src="../../js/off-canvas.js"></script>
+  <script src="../../js/hoverable-collapse.js"></script>
+  <script src="../../js/template.js"></script>
+  <script src='https://cdnjs.cloudflare.com/ajax/libs/jquery/3.4.1/jquery.min.js'></script>
+<script src="./lib/js/config.js"></script>
+<script src="./lib/js/util.js"></script>
+<script src="./lib/js/jquery.emojiarea.js"></script>
+<script src="./lib/js/emoji-picker.js"></script>
+
+<script  src="./app.js"></script>
+
+
+  <!-- endinject -->
+  <!-- Custom js for this page-->
+  <!-- End custom js for this page-->
+</body>
+
+</html>

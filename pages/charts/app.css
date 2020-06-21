@@ -1,0 +1,39 @@
+
+  .cardd{
+    width:400px;
+    height:400px;
+    position:relative;
+    background-color:white;
+    border-radius:15px;
+    box-shadow:0 0 10px #ccc
+   }
+  .dot{
+    width:50px;
+    height:50px;
+    background-color:#d0f1cf;
+    position:absolute;
+    border-radius:50px;
+    right:calc(50% - 25px)
+  }
+  .topDot{
+    top:-25px
+  }
+  .bottomDot{
+    bottom:-25px
+  }
+  .line{
+    position:absolute;
+    height:100%;
+    right:calc(50% - 2px);
+    border-left:2px dashed #d0f1cf
+  }
+  .a{
+
+float: left;
+
+  }
+  .b{
+
+float: right;
+
+  }

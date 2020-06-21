@@ -1,0 +1,166 @@
+.tab1{
+display: flex;
+flex-direction: row;
+justify-content: center;
+padding: 10px;
+}
+.tab2{
+
+display: flex;
+flex-direction: row;
+justify-content: flex-start;
+}
+
+
+
+
+.weather-card{
+width: 400px;
+height: 400px;
+/*background-image: url(https://image.freepik.com/free-vector/mountains-with-bright-sun-flying-birds_23-2148265092.jpg);
+/*background-image: url(https://images.all-free-download.com/images/graphiclarge/natural_landscape_drawing_violet_design_tree_mount_icons_6831286.jpg);*/
+background-position: center;
+background-repeat: no-repeat;
+background-size: auto;
+
+}
+
+
+  .btn-danger {
+	background: transparent;
+	color: #d9534f;
+	cursor: pointer;
+	font-family: "Source Sans Pro", sans-serif;
+	font-size: 30px;
+	font-weight: 200;
+	transition: color 0.4s ease;
+  }
+  .btn-danger:hover {
+	color: #e7908e;
+  }
+  
+  .btn-deactivate {
+	color: #DDD;
+	cursor: pointer;
+  }
+  
+  .btn-deg {
+	-webkit-user-select: none;
+	-moz-user-select: none;
+	-ms-user-select: none;
+	user-select: none;
+  }
+  
+  .card {
+	border-radius: 0;
+	background: #fff;
+	box-shadow: 0 1px 2px 0 rgba(0, 0, 0, 0.13), 0 1px 5px 0 rgba(0, 0, 0, 0.08);
+	margin-bottom: 1.5rem;
+	padding: 1.6rem 1rem;
+  }
+  .card .link-icon i {
+	margin-top: 7px;
+  }
+  .card .bottom-button {
+	margin-bottom: 0;
+  }
+  .card .text-caption {
+	color: #AAA;
+  }
+  
+  h1, h2 {
+	font-family: "Source Sans Pro", sans-serif;
+  }
+  
+  .header {
+	color: #555;
+	height: 100%;
+	text-align: center;
+	padding-top: 5px;
+  }
+  .header .cover-heading {
+	font-size: 58px;
+	color: #555;
+	margin-top: 1.6rem;
+	margin-bottom: 1.6rem;
+  }
+  .wi{
+  color: #d9534f;
+  
+  
+  }
+  .alertt{
+margin-left: 70%;
+margin-top: -19%;
+width: 300px;
+background-color:#fab1a0;
+color: #2d3436;
+height:200px;width:300px;border:1px solid #ccc;font:16px/26px Georgia, Garamond, Serif;overflow:auto;
+
+  }
+  
+  .alertt h5{
+
+background-color:#4b4b4b;
+color: white;
+font: bold;
+font-size: 17px;
+border-radius: 50%;
+width: 50px;
+height: 50px;
+float: right;
+display: flex;
+
+
+  }
+  .testt{
+
+	height:200px;width:300px;border:1px solid #ccc;font:16px/26px Georgia, Garamond, Serif;overflow:auto;
+  }
+  .programer{
+
+
+width: 400px;
+height: 300px;
+overflow: scroll;
+background-color:#d2dae2;
+color: #ff9f43;
+font-size: 25px;
+}
+.dropdown-toggle{
+
+width: 100px;
+float: right;
+}
+
+.table{
+
+width: 30%;
+
+}
+.tdd{
+  height: 400px;
+overflow: scroll;
+}
+.table{
+width: 55%;
+height: auto;
+}
+.top-top{
+
+margin-top: -8%;
+
+}
+
+
+@media only screen and (max-width: 600px) {
+ 
+.main-panel{
+display: flex;
+flex-direction: column;
+justify-content: center;
+}
+  
+    }
+  
+  
